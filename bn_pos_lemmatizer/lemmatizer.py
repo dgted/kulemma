@@ -12,7 +12,7 @@ class PosLemmatizer(BaseFile):
         default_lookup_file = lookup_file or self._get_default_file_path('lemma_lookup.json')
         self.lookup_map = self._read_data_from_json(default_lookup_file)
 
-        stop_words_file = rules_file or self._get_default_file_path('stopwords.json')
+        stop_words_file = self._get_default_file_path('stopwords.json')
         self.stop_words = stop_words or self._read_data_from_json(stop_words_file)
         # self.stop_words = stop_words
 

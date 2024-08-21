@@ -36,6 +36,14 @@ print(lemma)
 # সরকারি চিকিৎসক অনীহা গ্রাম মানুষ অবিচার শিকার মন্তব্য পরিকল্পনা
 ```
 
+Some Params of `PosLemmatizer()`
+```
+words_file= Array of root words in json format
+lookup_file= Dictionary of unconventional words in json format
+rules_file= Dictionary of rules in json format
+stop_words= List of stop words in json format.
+```
+
 ### System Overview
 !["System Overview"](./system_overview.png)
 

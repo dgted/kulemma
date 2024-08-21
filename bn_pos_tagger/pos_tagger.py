@@ -3,7 +3,7 @@ from sklearn_crfsuite import CRF
 
 from typing import List, Tuple
 
-from library.bn_pos_tagger.utils.os_path import OSPathUtils
+from .utils.os_path import OSPathUtils
 
 
 class BanglaPosTagger:

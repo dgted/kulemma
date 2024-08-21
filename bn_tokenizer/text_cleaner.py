@@ -4,10 +4,10 @@ Most of the functions are copied from clean-text.
 """
 import re
 
-from library.bn_tokenizer import constants
-
 from ftfy import fix_text
 from unicodedata import normalize
+
+from . import constants
 
 
 def fix_bad_unicode(text, normalization="NFC"):

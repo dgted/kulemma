@@ -1,8 +1,7 @@
-from library.bn_pos_lemmatizer.base_file import BaseFile
-from library.bn_pos_lemmatizer.word_lemma import WordLemma
-from library.bn_pos_lemmatizer.utils.algorithms import calculate_minimum_distance
-
-from library.bn_pos_lemmatizer.pos_rule import PosRule
+from .base_file import BaseFile
+from .pos_rule import PosRule
+from .word_lemma import WordLemma
+from .utils.algorithms import calculate_minimum_distance
 
 
 class PosLemmatizer(BaseFile):

@@ -1,6 +1,6 @@
-from library.bn_pos_lemmatizer.base_file import BaseFile
-from library.bn_pos_lemmatizer.dictionary import Dictionary
-from library.bn_pos_lemmatizer.utils.algorithms import longest_substring_search
+from .base_file import BaseFile
+from .dictionary import Dictionary
+from .utils.algorithms import longest_substring_search
 
 
 class WordLemma(BaseFile):

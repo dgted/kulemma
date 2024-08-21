@@ -2,9 +2,9 @@ import unicodedata
 import yaml
 import json
 
-from library.bn_pos_lemmatizer.utils.os_path import OSPathUtils
-from library.bn_tokenizer import BanglaTokenizer, TextCleaner
-from library.bn_pos_tagger import BanglaPosTagger
+from .utils.os_path import OSPathUtils
+from ..bn_pos_tagger import BanglaPosTagger
+from ..bn_tokenizer import BanglaTokenizer, TextCleaner
 
 
 class BaseFile:

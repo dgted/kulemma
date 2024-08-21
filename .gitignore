@@ -12,13 +12,7 @@ __pycache__/
 .idea/
 .DS_Store
 
-
 # Ignore sensitive or environment-specific configuration files
 config.ini
 .env
 .env.json
-
-
-# external_resource_files
-proposed/
-extra_code/
